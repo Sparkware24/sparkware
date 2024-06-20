@@ -17,7 +17,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    height: 10%;
+    height: 15%;
     z-index: 1000;
      display: flex;
     justify-content: space-between;
@@ -29,8 +29,9 @@ header {
 }
 
 .logo {
-    margin-top: 50px;
-    margin-right: auto;
+margin-right: auto;
+margin-top: 50px;
+margin-bottom: 30px;
 }
 
 .logo img {
