@@ -57,6 +57,18 @@
   border: 0;
 }
 
+#contact .form-dis h2{
+    margin-top: 100px;
+    color: #020650;
+    text-align: center;
+}
+
+#contact .form-dis p{
+    color: #0d0d0d;
+    text-align: center;
+    font-size: 20px;
+}
+
 /* Contact Form */
 #contact form {
   text-align: center;
