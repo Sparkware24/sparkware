@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #0f0f0f;
+    background: linear-gradient(90deg, #2cb1c3 0%, #5064d7 50%, #070334 100%);
     position: fixed;
     width: 100%;
     top: 0;
@@ -26,6 +26,14 @@ header {
     justify-content: center;
      font-family: century;
       font-weight: bold;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo img {
+    height: 300px; /* Adjust as needed */
 }
 
 .menu-toggle {
@@ -69,11 +77,11 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: rgb(70, 9, 144);
+    color: rgb(19, 205, 226);
 }
 
 header nav ul li a:active {
-  color: rgb(70, 9, 144);
+  color: rgb(23, 218, 198);
 }
 @media screen and (max-width: 768px) {
     .menu-toggle {
@@ -102,7 +110,7 @@ header nav ul li a:active {
         right: -100%; /* Off-screen initially */
         height: 100%;
         width: 70%;
-        background-color: #333;
+        background-color: #080241;
         transition: right 0.3s ease;
          flex-direction: column;
         justify-content: start;
@@ -130,7 +138,7 @@ header nav ul li a:active {
 
     header nav ul li a {
         padding: 10px 0;
-        border-bottom: 1px solid  rgb(144, 9, 43);
+        border-bottom: 1px solid  rgb(25, 172, 213);
         width: 100%;
         text-align: center;
     }
@@ -150,7 +158,7 @@ header nav ul li a:active {
 
 
 .footer {
-            background-color: #0b0b0b;
+             background: linear-gradient(90deg, #2cb1c3 0%, #5064d7 50%, #070334 100%);
             color: #fff;
             padding: 20px;
             display: flex;
