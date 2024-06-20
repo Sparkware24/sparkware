@@ -1,5 +1,40 @@
 #about {
-    background-color: white;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.about-image {
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.about-image .heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px; /* Adjust font size as needed */
+    color: #81c7de;
+    text-shadow: 2px 2px 4px rgba(120, 55, 233, 0.7); /* Add text shadow for better readability */
+   
+}
+
+.about-content {
     padding: 20px;
-    margin: 20px 0;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 1rem; /* Adjust font size as needed */
+    color: #333;
 }

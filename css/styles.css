@@ -190,8 +190,10 @@ header nav ul li a:active {
 .footer .logo-name {
     margin-top: 10px;
     font-size: 1.5rem; /* Adjust font size if needed */
-    color: #fff; /* Adjust color if needed */
+    color: #0a0553; /* Adjust color if needed */
     text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
 }
 
 .footer .company-info {
@@ -234,7 +236,7 @@ header nav ul li a:active {
     .footer .company-logo {
         margin-top: 10px;
         margin-left: 0; /* Remove the left margin to center on small devices */}
-        
+
     .footer .company-logo img{
         width:100px;
     }
