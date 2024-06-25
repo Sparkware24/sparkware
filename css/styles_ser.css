@@ -16,13 +16,15 @@
 }
 
 .service-list {
-    list-style-type: none;
+    list-style-type:none;
     padding: 0;
     margin: 0;
 }
 
 .service-item {
-    font-size: 1.2em;
+    font-size: 1.7em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1b035e;
     margin: 10px 0;
     opacity: 0;
     transform: translateY(20px);
