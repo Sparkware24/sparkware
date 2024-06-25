@@ -35,9 +35,9 @@
 }
 
 .box {
-    background-color: #f0f0f0;
+    background-color: #aaf3ef;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #1b035e;
     border-radius: 10px;
     width: 400px; /* Fixed width for boxes */
     text-align: center;
