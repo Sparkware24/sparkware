@@ -17,3 +17,31 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+
+/*service animation*/
+document.addEventListener("DOMContentLoaded", function () {
+  const serviceItems = document.querySelectorAll(".service-item");
+  const observerOptions = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.1,
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add("visible");
+        }, index * 500); // delay each item by 500ms multiplied by its index
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+  serviceItems.forEach((item, index) => {
+    item.style.transitionDelay = `${index * 0.5}s`;
+    observer.observe(item);
+  });
+});
