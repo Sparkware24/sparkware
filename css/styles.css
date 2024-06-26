@@ -17,7 +17,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    height: 15%;
+    height: 10%;
     z-index: 1000;
      display: flex;
     justify-content: space-between;
