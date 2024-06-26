@@ -1,7 +1,8 @@
 #about {
     position: relative;
     text-align: center;
-    color: #fff;
+    color: #000000;
+    background-color: #056d8f;
 }
 
 .about-image {
@@ -10,7 +11,7 @@
 
 .about-image img {
     width: 100%;
-    height: auto;
+    height: 90vh;
 }
 
 .about-image .heading {
@@ -25,7 +26,7 @@
 }
 
 .about-content {
-    padding: 20px;
+    padding: 10px;
     text-align: justify;
     display: flex;
     justify-content: center;
@@ -42,14 +43,26 @@
 
 .logo-container {
     flex: 1;
-    
+    text-align: center; /* Center the logo and name */
+  
    
    
 }
 
 .logo-container .logo {
     width: 250px; /* Adjust as needed */
-    height: auto;
+    max-width: 400px;
+    
+    
+}
+
+.logo-name {
+   padding-bottom: 20px;
+    font-size: 1.5rem; /* Adjust font size if needed */
+    color: #0a0553; /* Adjust color if needed */
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
 }
 
 .text-container {
@@ -64,13 +77,18 @@
 
 .text-container p {
     font-size: 1rem; /* Adjust font size as needed */
-    color: #333;
+    color: #f7f2f2;
 }
 
 /* Media queries for responsiveness */
 
 /* For tablets and smaller devices */
 @media (max-width: 768px) {
+    .about-image img {
+        width: 100%;
+        height: 30vh;
+    }
+
     .about-image .heading {
         font-size: 30px; /* Adjust font size for tablets */
         padding-bottom: 100px;
@@ -84,6 +102,14 @@
         text-align: center;
         padding-right: 0;
         margin-bottom: 20px;
+    }
+
+    .logo-container .logo {
+        width: 200px; /* Adjust as needed for tablets */
+    }
+
+    .logo-name {
+        font-size: 1.25rem; /* Adjust font size for tablets */
     }
 
     .text-container h2 {
@@ -103,7 +129,10 @@
 
     .logo-container .logo {
         width: 150px; /* Adjust as needed for mobile phones */
- 
+    }
+
+    .logo-name {
+        font-size: 1rem; /* Adjust font size for mobile phones */
     }
 
     .text-container h2 {
