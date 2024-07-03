@@ -8,8 +8,6 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-
-  padding-top: 50px; /* Ensure nav doesn't overlap content */
 }
 
 header {
@@ -28,13 +26,13 @@ header {
   font-weight: bold;
 }
 
-.logo {
+header .logo {
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-.logo img {
+header .logo img {
   height: 300px; /* Adjust as needed */
 }
 
