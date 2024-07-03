@@ -59,9 +59,9 @@
   text-align: center;
   background-color: #020650;
   width: 50%;
-  padding: 1% 1%;
+  padding: 1% 2%;
   border-radius: 10px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .inqury_btn {
@@ -126,7 +126,6 @@
 
   .home_bottom {
     width: 90%;
-    gap: 5px;
   }
 
   .home_bottom h3 {
