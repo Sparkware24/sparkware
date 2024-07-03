@@ -140,4 +140,8 @@
   #contact form {
     padding: 10px;
   }
+
+  #contact .form-dis p {
+  font-size: 17px;
+}
 }
