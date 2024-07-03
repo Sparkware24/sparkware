@@ -12,7 +12,7 @@
 
 .slide-text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -83,6 +83,15 @@
   color: white;
 }
 
+@media (max-width: 1024px) {
+  .home_bottom {
+    width: 80%;
+    padding: 1% 1%;
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+}
+
 @media (max-width: 768px) {
   .slideshow-container {
     height: 60vh; /* Adjust height for tablets */
@@ -97,7 +106,6 @@
   }
 
   .home_bottom {
-    width: 80%;
     gap: 10px;
   }
 }
@@ -117,7 +125,6 @@
   }
 
   .home_bottom {
-    top: 85%;
     width: 90%;
     gap: 5px;
   }
