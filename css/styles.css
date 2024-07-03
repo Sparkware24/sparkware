@@ -275,7 +275,10 @@ header nav ul li a:active {
 }
 
 @media (min-width: 980px) {
-  .footer .footer-content,
+  .footer .footer-content {
+    gap: 100px;
+  }
+
   .footer .footer-content .footer-contact {
     gap: 150px;
   }
