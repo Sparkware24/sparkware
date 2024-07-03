@@ -14,6 +14,11 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <script defer src="js/script.js"></script>
+    <script defer src="js/scripts.js"></script>
+    <script defer src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script defer src="js/email_script.js"></script>
   </head>
   <body>
     <header>
@@ -257,47 +262,5 @@
         </div>
       </div>
     </div>
-
-    <script src="js/script.js"></script>
-    <script src="js/scripts.js"></script>
-
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("9ZyYDtNNEepuOYIxI"); // Replace with your EmailJS public key
-      })();
-    </script>
-
-    <script>
-      document.getElementById("contact-form").addEventListener("submit", function (event) {
-        event.preventDefault(); // Prevent form submission
-
-        // Collect form data
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var subject = document.getElementById("subject").value;
-        var message = document.getElementById("message").value;
-
-        console.log(name, email, subject, message);
-
-        // Send email using EmailJS
-        emailjs
-          .send("service_m95spyl", "template_pa0fw5t", {
-            name,
-            email,
-            subject,
-            message,
-          })
-          .then(
-            function (response) {
-              alert("Message sent successfully!");
-            },
-            function (error) {
-              alert("Failed to send message.");
-            }
-          );
-      });
-    </script>
   </body>
 </html>
