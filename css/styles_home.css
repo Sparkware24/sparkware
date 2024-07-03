@@ -16,8 +16,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
- 
+ text-shadow: 
+                -1px -1px 0 #131874,  
+                1px -1px 0 #0b0363,
+                -1px 1px 0 #0c0560,
+                1px 1px 0 #200b8e;
   text-align: center;
+ 
 }
 
 .slide-text h2 {
