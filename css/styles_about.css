@@ -1,0 +1,138 @@
+#about {
+  position: relative;
+  text-align: center;
+  color: #000000;
+  background-color: #056d8f;
+}
+
+.about-image {
+  position: relative;
+}
+
+.about-image img {
+  width: 100%;
+  height: 90vh;
+}
+
+.about-image .heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px; /* Adjust font size as needed */
+  color: #81c7de;
+  text-shadow: 2px 2px 4px rgba(120, 55, 233, 0.7); /* Add text shadow for better readability */
+  font-family: Harrington;
+}
+
+.about-content {
+  padding: 40px 20px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo-container {
+  flex: 1;
+  text-align: center; /* Center the logo and name */
+}
+
+.logo-container .logo {
+  width: 250px; /* Adjust as needed */
+  max-width: 400px;
+}
+
+.logo-name {
+  font-size: 1.5rem; /* Adjust font size if needed */
+  color: #0a0553; /* Adjust color if needed */
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.text-container {
+  flex: 2;
+  text-align: justify;
+}
+
+.text-container h2 {
+  font-size: 2rem; /* Adjust font size as needed */
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 1rem; /* Adjust font size as needed */
+  color: #f7f2f2;
+}
+
+/* Media queries for responsiveness */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+  .about-image img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .about-image .heading {
+    font-size: 30px; /* Adjust font size for tablets */
+    padding-bottom: 100px;
+  }
+
+  .about-content-inner {
+    flex-direction: column;
+  }
+
+  .logo-container {
+    text-align: center;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .logo-container .logo {
+    width: 200px; /* Adjust as needed for tablets */
+  }
+
+  .logo-name {
+    font-size: 1.25rem; /* Adjust font size for tablets */
+  }
+
+  .text-container h2 {
+    font-size: 1.75rem; /* Adjust font size for tablets */
+  }
+
+  .text-container p {
+    font-size: 0.95rem; /* Adjust font size for tablets */
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .about-image .heading {
+    font-size: 20px; /* Adjust font size for mobile phones */
+  }
+
+  .logo-container .logo {
+    width: 150px; /* Adjust as needed for mobile phones */
+  }
+
+  .logo-name {
+    font-size: 1rem; /* Adjust font size for mobile phones */
+  }
+
+  .text-container h2 {
+    font-size: 1.5rem; /* Adjust font size for mobile phones */
+  }
+
+  .text-container p {
+    font-size: 0.9rem; /* Adjust font size for mobile phones */
+  }
+}
