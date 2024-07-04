@@ -8,6 +8,7 @@
 .heading {
   font-size: 2em;
   margin-bottom: 20px;
+   font-family:serif;
 }
 
 .service-list {
@@ -39,7 +40,7 @@
 }
 
 .box {
-  background-color: #aaf3ef;
+  background-color: #aacbf3;
   padding: 20px;
   border: 1px solid #1b035e;
   border-radius: 10px;

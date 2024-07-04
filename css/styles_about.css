@@ -2,7 +2,7 @@
   position: relative;
   text-align: center;
   color: #000000;
-  background-color: #056d8f;
+  background-color: #055f8f;
 }
 
 .about-image {
@@ -22,7 +22,7 @@
   font-size: 40px; /* Adjust font size as needed */
   color: #81c7de;
   text-shadow: 2px 2px 4px rgba(120, 55, 233, 0.7); /* Add text shadow for better readability */
-  font-family: Harrington;
+  
 }
 
 .about-content {
@@ -66,11 +66,13 @@
 .text-container h2 {
   font-size: 2rem; /* Adjust font size as needed */
   margin-bottom: 10px;
+  font-family:serif;
 }
 
 .text-container p {
   font-size: 1rem; /* Adjust font size as needed */
   color: #f7f2f2;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Media queries for responsiveness */
