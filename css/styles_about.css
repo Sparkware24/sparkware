@@ -1,16 +1,12 @@
 #about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   text-align: center;
   color: #000000;
-  background-color: #056d8f;
-}
-
-.about-image {
-  position: relative;
-}
-
-.about-image img {
-  width: 100%;
+  background-color: #055f8f;
   height: 90vh;
 }
 
@@ -22,7 +18,6 @@
   font-size: 40px; /* Adjust font size as needed */
   color: #81c7de;
   text-shadow: 2px 2px 4px rgba(120, 55, 233, 0.7); /* Add text shadow for better readability */
-  font-family: Harrington;
 }
 
 .about-content {
@@ -52,7 +47,7 @@
 }
 
 .logo-name {
-  font-size: 1.5rem; /* Adjust font size if needed */
+  font-size: 2rem; /* Adjust font size if needed */
   color: #0a0553; /* Adjust color if needed */
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -66,17 +61,23 @@
 .text-container h2 {
   font-size: 2rem; /* Adjust font size as needed */
   margin-bottom: 10px;
+  font-family: serif;
 }
 
 .text-container p {
-  font-size: 1rem; /* Adjust font size as needed */
+  font-size: 1.2rem; /* Adjust font size as needed */
   color: #f7f2f2;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* Media queries for responsiveness */
 
 /* For tablets and smaller devices */
 @media (max-width: 768px) {
+  #about {
+    height: auto;
+  }
+
   .about-image img {
     width: 100%;
     height: 30vh;
