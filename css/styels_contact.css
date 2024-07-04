@@ -56,12 +56,6 @@
   margin-bottom: 10px;
 }
 
-#contact .info-box img:hover {
-  max-width: 110px;
-  height: 110px;
-  margin-bottom: 10px;
-}
-
 /* Google Map */
 #contact .map {
   margin: 20px 0;
